@@ -8,7 +8,7 @@
           placeholder="搜索 …"
           type="text" />
         <nav :class="['nav', { 'show-burger-menu': burgerActive }]">
-          <ul :class="['menu', { 'hide-menu': searchActive }]">
+          <ul :class="['menu', { 'hide-menu': searchActive && !burgerActive }]">
             <li class="menu-select">
               AI 研發區
               <i class="arrow-down" />
@@ -543,7 +543,7 @@ const swipeNavMenu = () => {
 
 .burger {
   position: relative;
-  display: flex;
+  display: none;
   align-items: center;
   width: 25px;
   min-height: 25px;
@@ -582,6 +582,10 @@ const swipeNavMenu = () => {
       background-color: var(--blue);
     }
   }
+
+  @media (320px <= width <= 992px) {
+    display: flex;
+  }
 }
 
 .show-burger-menu {
@@ -599,7 +603,6 @@ const swipeNavMenu = () => {
 
 .show-input {
   opacity: 1;
-  // visibility: visible;
   top: 50%;
   transform: translateY(-50%);
 
