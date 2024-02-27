@@ -14,21 +14,45 @@
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/airpet.png"
+                    alt="airpet-icon" />
                   <a href="">AI雲飛-API庫</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/highlight.png"
+                    alt="highlight-icon" />
                   <a href="">展示 – AI 學習寵物功能</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/translate.png"
+                    alt="translate-icon" />
                   <a href="">展示 – AI 伴讀小雲飛</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/video.png"
+                    alt="video-icon" />
                   <a href="">展示-AI英語情境式學習</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/learnenglish.png"
+                    alt="learn-english-icon" />
                   <a href="">展示 AI飛常快樂學英語</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/aiplay.png"
+                    alt="airplay-icon" />
                   <a href="">雲飛 – AI遊樂區</a>
                 </li>
               </ul>
@@ -38,27 +62,59 @@
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/AIBeyondEnglishTown.png"
+                    alt="AIBeyond-icon" />
                   <a href="">AI 飛躍英語村</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/CampusGPT.png"
+                    alt="CampusGPT-icon" />
                   <a href="">AI CampusGPT 雲飛學堂</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/ENGCITY.png"
+                    alt="ENGCITY-icon" />
                   <a href="">Air 英語未來城</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/chromebook.png"
+                    alt="chromebook-icon" />
                   <a href="">Chromebook教學廣播互動系統</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/classroomgo-iPad.png"
+                    alt="classroomgo-icon" />
                   <a href="">iPad 教學廣播互動系統</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/Android.png"
+                    alt="android-icon" />
                   <a href="">Android 教學廣播與互動系統</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/googleworkspace.png"
+                    alt="googleworkspace-icon" />
                   <a href="">Google workspace 版本介紹</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/classpoint.png"
+                    alt="classpoint-icon" />
                   <a href="">ClassPoint AI 飛越課點</a>
                 </li>
                 <li class="menu-list-link">
@@ -71,6 +127,10 @@
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/studentqrcode.png"
+                    alt="studentqrcode-icon" />
                   <a href="">學生名稱QR Code 產生器</a>
                 </li>
               </ul>
@@ -80,12 +140,24 @@
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/registration.png"
+                    alt="registration-icon" />
                   <a href="">Moonshot-報名表</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/video.png"
+                    alt="video-icon" />
                   <a href="">Moonshot-星之花絮</a>
                 </li>
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/moonshoot.png"
+                    alt="moonshoot-icon" />
                   <a href="">Moonshot-星之老師</a>
                 </li>
               </ul>
@@ -95,6 +167,10 @@
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
+                  <img
+                    class="menu-list-icon"
+                    src="@/assets/images/header-nav/cooperation.png"
+                    alt="cooperation-icon" />
                   <a href="">產學合作申請</a>
                 </li>
               </ul>
@@ -132,12 +208,6 @@
         <h1 class="editor-content-title">亞洲最強大的IRS即時互動教學工具</h1>
         <p class="editor-content-description">
           ClassQ是您教學的神器，能讓您的教學方式大放異彩，事半功倍。它無縫地融合於教學中，讓您的簡報煥發新生。獨特的呈現形式和遊戲式的學習活動，能有效地提升學生的參與和學習成效。
-          <!-- <span class="editor-content-description-link">
-            <svg class="editor-content-description-icon">
-              <use href="@/assets/icons/sprite.svg#play" />
-            </svg>
-            <span class="editor-content-description-link-text">Some text</span>
-          </span> -->
         </p>
         <img
           class="editor-content-link"
@@ -204,30 +274,30 @@
       <div class="footer-nav">
         <div class="footer-nav-links">
           <h3 class="footer-nav-title">我們的伙伴</h3>
-          <span class="footer-nav-link">Google</span>
-          <span class="footer-nav-link">ACER 宏碁</span>
-          <span class="footer-nav-link">大同</span>
-          <span class="footer-nav-link">中華電信</span>
-          <span class="footer-nav-link">成為我們的伙伴</span>
-          <span class="footer-nav-link">合作顆伴推廣經費申請</span>
+          <a class="footer-nav-link">Google</a>
+          <a class="footer-nav-link">ACER 宏碁</a>
+          <a class="footer-nav-link">大同</a>
+          <a class="footer-nav-link">中華電信</a>
+          <a class="footer-nav-link">成為我們的伙伴</a>
+          <a class="footer-nav-link">合作顆伴推廣經費申請</a>
         </div>
         <div class="footer-nav-links">
           <h3 class="footer-nav-title">支援</h3>
-          <span class="footer-nav-link">幫助中心</span>
-          <span class="footer-nav-link">教育訓練</span>
-          <span class="footer-nav-link">隱私條款</span>
-          <span class="footer-nav-link">聯絡我們</span>
+          <a class="footer-nav-link">幫助中心</a>
+          <a class="footer-nav-link">教育訓練</a>
+          <a class="footer-nav-link">隱私條款</a>
+          <a class="footer-nav-link">聯絡我們</a>
         </div>
         <div class="footer-nav-links">
           <h3 class="footer-nav-title">資源</h3>
-          <span class="footer-nav-link">(官網）社交媒體</span>
-          <span class="footer-nav-link">(AI+）教學應用社交媒體</span>
-          <span class="footer-nav-link">(Line ID): @ydai</span>
-          <span class="footer-nav-link">iPad 教學廣播安裝手冊</span>
-          <span class="footer-nav-link">iPad 教學廣播使用手冊</span>
-          <span class="footer-nav-link">Chromebook 教學廣播 安裝手冊</span>
-          <span class="footer-nav-link">Chromebook教學廣播 使用手冊</span>
-          <span class="footer-nav-link">Privacy Policy 隱私條款</span>
+          <a class="footer-nav-link">(官網）社交媒體</a>
+          <a class="footer-nav-link">(AI+）教學應用社交媒體</a>
+          <a class="footer-nav-link">(Line ID): @ydai</a>
+          <a class="footer-nav-link">iPad 教學廣播安裝手冊</a>
+          <a class="footer-nav-link">iPad 教學廣播使用手冊</a>
+          <a class="footer-nav-link">Chromebook 教學廣播 安裝手冊</a>
+          <a class="footer-nav-link">Chromebook教學廣播 使用手冊</a>
+          <a class="footer-nav-link">Privacy Policy 隱私條款</a>
         </div>
       </div>
     </section>
@@ -334,6 +404,8 @@ const swipeNavMenu = () => {
         position: absolute;
         top: 35px;
         left: 50%;
+
+        border-top: 3px solid var(--blue);
         transform: translateX(-50%);
         background-color: var(--white);
         z-index: 2;
@@ -436,11 +508,14 @@ const swipeNavMenu = () => {
     }
 
     &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
       white-space: nowrap;
       position: absolute;
       padding: 20px;
       left: 50%;
-      top: 60px;
+      top: 58px;
 
       border-top: 3px solid var(--blue);
       background-color: var(--white);
@@ -449,6 +524,10 @@ const swipeNavMenu = () => {
       transform: translateX(-50%);
 
       transition: opacity 0.3s ease, visibility 0.3s ease;
+
+      &-icon {
+        max-width: 25px;
+      }
 
       @media (320px <= width <= 992px) {
         width: 100%;
@@ -468,6 +547,9 @@ const swipeNavMenu = () => {
     }
 
     &-list-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       transition: background-color 0.3s ease;
 
       &:hover {
@@ -778,6 +860,14 @@ const swipeNavMenu = () => {
 
   &-logo {
     max-width: 200px;
+
+    @media (320px <= width <= 1280px) {
+      max-width: 180px;
+    }
+
+    @media (320px <= width <= 992px) {
+      max-width: 120px;
+    }
   }
 
   &-title {
@@ -798,6 +888,10 @@ const swipeNavMenu = () => {
       transform: translateX(-50%);
       background-color: var(--yellow);
     }
+
+    @media (320px <= width <= 992px) {
+      font-size: 24px;
+    }
   }
 
   &-subtitle {
@@ -806,6 +900,11 @@ const swipeNavMenu = () => {
     text-align: center;
     font-size: 18px;
     color: var(--gray);
+
+    @media (320px <= width <= 992px) {
+      padding: 0 10px;
+      font-size: 16px;
+    }
   }
 
   &-links {
@@ -848,6 +947,9 @@ const swipeNavMenu = () => {
       object-fit: cover;
       object-position: center;
 
+      @media (320px <= width <= 1280px) {
+        max-width: 125px;
+      }
       @media (320px <= width <= 992px) {
         max-width: 125px;
       }
@@ -872,11 +974,12 @@ const swipeNavMenu = () => {
       }
     }
 
-    @media (320px <= width <= 992px) {
+    @media (320px <= width <= 1280px) {
+      padding: 0 20px;
       max-width: 220px;
-      min-height: 350px;
-      width: 100%;
-      height: 100%;
+      min-height: 300px;
+    }
+    @media (320px <= width <= 992px) {
       padding: 20px;
     }
     @media (320px <= width <= 475px) {
@@ -912,7 +1015,7 @@ const swipeNavMenu = () => {
       transform: translateX(-50%);
     }
 
-    @media (320px <= width <= 992px) {
+    @media (320px <= width <= 1280px) {
       font-size: 24px;
     }
   }
@@ -932,6 +1035,10 @@ const swipeNavMenu = () => {
       object-position: center;
 
       cursor: pointer;
+
+      @media (320px <= width <= 1280px) {
+        max-width: 180px;
+      }
     }
 
     @media (320px <= width <= 992px) {
@@ -1001,6 +1108,8 @@ const swipeNavMenu = () => {
       font-size: 14px;
       line-height: 1.7em;
       color: var(--black);
+
+      cursor: pointer;
 
       @media (320px <= width <= 550px) {
         align-self: center;
