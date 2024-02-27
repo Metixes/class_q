@@ -598,6 +598,7 @@ const swipeNavMenu = () => {
     visibility: visible;
     transition: opacity 0.6s ease-out, visibility 0.6s ease-out,
       transform 0.4s ease-out;
+    cursor: pointer;
 
     @media (320px <= width <= 992px) {
       position: absolute;
@@ -613,7 +614,7 @@ const swipeNavMenu = () => {
 
     opacity: 0;
     visibility: hidden;
-
+    cursor: pointer;
     transition: opacity 0.6s ease-out, visibility 0.6s ease-out,
       top 0.4s ease-out !important;
   }
