@@ -6,7 +6,8 @@
         <input
           :class="['header-input', { 'show-input': searchActive }]"
           placeholder="搜索 …"
-          type="text" />
+          type="text"
+        />
         <nav :class="['nav', { 'show-burger-menu': burgerActive }]">
           <!-- <ul :class="['menu', { 'hide-menu': searchActive && !burgerActive }]">
             <li class="menu-select">
@@ -181,12 +182,14 @@
       <div class="header-swipe-change">
         <svg
           @click="swipeNavMenu"
-          :class="['cancel-icon', { 'show-cancel-icon': searchActive }]">
+          :class="['cancel-icon', { 'show-cancel-icon': searchActive }]"
+        >
           <use href="@/assets/icons/sprite.svg#cancel" />
         </svg>
         <svg
           @click="swipeNavMenu"
-          :class="['search-icon', { 'hidden-search-icon': searchActive }]">
+          :class="['search-icon', { 'hidden-search-icon': searchActive }]"
+        >
           <use href="@/assets/icons/sprite.svg#search" />
         </svg>
         <a-select
@@ -194,10 +197,12 @@
           label-in-value
           style="width: 120px"
           :options="locales"
-          @change="changeLang"></a-select>
+          @change="changeLang"
+        ></a-select>
         <div
           @click="burgerActive = !burgerActive"
-          :class="['burger', { 'hide-burger': searchActive }]">
+          :class="['burger', { 'hide-burger': searchActive }]"
+        >
           <div class="burger-menu"></div>
         </div>
       </div>
@@ -210,7 +215,8 @@
         <img
           class="editor-content-logo"
           src="@/assets/images/class-q.png"
-          alt="Class-Q" />
+          alt="Class-Q"
+        />
         <h1 class="editor-content-title">{{ t("main.section1.title") }}</h1>
         <p class="editor-content-description">
           {{ t("main.section1.desc") }}
@@ -218,12 +224,14 @@
         <img
           class="editor-content-link"
           src="@/assets/images/link.png"
-          alt="Link" />
+          alt="Link"
+        />
       </div>
       <img
         class="editor-laptop-img"
         src="@/assets/images/laptop.png"
-        alt="Laptop" />
+        alt="Laptop"
+      />
     </div>
     <div class="bg">
       <div class="study">
@@ -236,11 +244,13 @@
           <div
             class="link-container"
             v-for="link of arrLinks"
-            :key="link.title">
+            :key="link.title"
+          >
             <img
               class="link-container-icon"
               :src="`/images/${link.imgPath}.png`"
-              alt="Icon" />
+              alt="Icon"
+            />
             <h5 class="link-container-title">{{ link.title }}</h5>
             <p class="link-container-subtitle">{{ link.subtitle }}</p>
           </div>
@@ -252,15 +262,18 @@
           <img
             class="downloads-links-link"
             src="@/assets/images/for-free.png"
-            alt="free" />
+            alt="free"
+          />
           <img
             class="downloads-links-link"
             src="@/assets/images/for-student.png"
-            alt="student" />
+            alt="student"
+          />
           <img
             class="downloads-links-link"
             src="@/assets/images/for-teacher.png"
-            alt="teacher" />
+            alt="teacher"
+          />
         </div>
       </div>
     </div>
@@ -271,11 +284,13 @@
         <img
           class="footer-partners-logo"
           src="@/assets/images/Gtrainers_logo_L.png"
-          alt="logo" />
+          alt="logo"
+        />
         <img
           class="footer-partners-logo"
           src="@/assets/images/Google-for-Education_logo.png"
-          alt="logo" />
+          alt="logo"
+        />
       </div>
       <!-- <div class="footer-nav">
         <div class="footer-nav-links">
@@ -312,11 +327,10 @@
 
 <script setup>
 import { ref } from "vue";
-import { useI18n } from "vue-i18n";
+import { useI18n } from "vue3-i18n";
 import { SelectProps } from "ant-design-vue";
-import i18n from "@/locales/index.js";
 
-const { t, setLocale } = useI18n();
+const { t, setLocale, getLocale } = useI18n();
 
 const arrLinks = [
   {
@@ -372,7 +386,7 @@ const arrLinks = [
 ];
 const locales = ref([
   {
-    value: "zh-hk",
+    value: "zh",
     label: "ZH-HK",
   },
   {
@@ -385,12 +399,15 @@ const locales = ref([
   },
 ]);
 
-const defaultLocale = ref({ value: "zh-hk", label: "ZH-HK" });
+const getDafLocale = getLocale();
+
+const defaultLocale = ref(localStorage.getItem("lang") || getDafLocale);
 const searchActive = ref(false);
 const burgerActive = ref(false);
 
 const changeLang = (value) => {
-  i18n.setLocale(value.key);
+  setLocale(value.key);
+  localStorage.setItem("lang", value.key);
 };
 
 const swipeNavMenu = () => {

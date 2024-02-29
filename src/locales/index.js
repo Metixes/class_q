@@ -1,15 +1,29 @@
-import { createI18n } from "vue-i18n";
 import en from "./en/en.json";
-import zhHk from "./zh-hk/zh-hk.json";
+import zh from "./zh-hk/zh-hk.json";
 import ja from "./ja/ja.json";
 
-const locales = { zhHk, ja, en };
+import { createI18n } from "vue3-i18n";
+
+const locales = { zh, ja, en };
+
+const locale = () => {
+  let savedLocale = localStorage.getItem("lang");
+
+  if (savedLocale) {
+    return savedLocale;
+  } else {
+    let browserLocale = navigator.language.split("-")[0];
+    if (Object.keys(locales).includes(browserLocale)) {
+      return browserLocale;
+    } else {
+      return "en";
+    }
+  }
+};
 
 const i18n = createI18n({
-  locale: "zh-hk",
-  fallbackLocale: "zh-hk",
+  locale: locale(),
   messages: locales,
-  legacy: false,
 });
 
 export default i18n;
