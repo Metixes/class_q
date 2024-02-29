@@ -1,0 +1,128 @@
+{
+  "_comment": "/* HEADER SECTION */",
+
+  "header-first-menu-title": "AI 研發區",
+  "header-second-menu-title": "教學方案",
+  "header-third-menu-title": "免費方案區",
+  "header-fourth-menu-title": "moonshot-射月行動",
+  "header-fifth-menu-title": "客戶回饋區",
+
+  "header-first-menu": {
+    "1": "AI雲飛-API庫",
+    "2": "展示 – AI 學習寵物功能",
+    "3": "展示 – AI 伴讀小雲飛",
+    "4": "展示-AI英語情境式學習",
+    "5": "展示 AI飛常快樂學英語",
+    "6": "雲飛 – AI遊樂區"
+  },
+  "header-second-menu": {
+    "1": "AI 飛躍英語村",
+    "2": "AI CampusGPT 雲飛學堂",
+    "3": "Air 英語未來城",
+    "4": "Chromebook教學廣播互動系統",
+    "5": "iPad 教學廣播互動系統",
+    "6": "Android 教學廣播與互動系統",
+    "7": "Google workspace 版本介紹",
+    "8": "ClassPoint AI 飛越課點",
+    "9": "雲動方案價目表"
+  },
+  "header-third-menu": {
+    "1": "學生名稱QR Code 產生器"
+  },
+  "header-fourth-menu": {
+    "1": "Moonshot-報名表",
+    "2": "Moonshot-星之花絮",
+    "3": "Moonshot-星之老師"
+  },
+  "header-fifth-menu": {
+    "1": "產學合作申請"
+  },
+
+  "_comment": "/* MAIN SECTION */",
+
+  "main": {
+    "section1": {
+      "title": "Asia’s most powerful classroom management assistance tool",
+      "desc": "ClassQ is your classroom management assistance tool that can make your teaching methods shine and get twice the result with half the effort. It blends seamlessly into teaching and brings new life to your presentations. The unique presentation format and fast and simple learning management can effectively improve student participation and learning effectiveness."
+    },
+    "section2": {
+      "title": "Superior presentation tool",
+      "desc": "Our advanced annotation and teaching aids designed for education allow you to create unique and engaging teaching presentations. These tools can be seamlessly integrated into your teaching style to further enhance your teaching effectiveness.",
+      "links": {
+        "1": {
+          "title": "Screen broadcast",
+          "subtitle": "Broadcast Teacher's screen to all students"
+        },
+        "2": {
+          "title": "Lock device",
+          "subtitle": "Student's device locked in 1 click"
+        },
+        "3": {
+          "title": "AI YunFei",
+          "subtitle": "The auxiliary learning assistant using ChatGPT technology allows students to receive assistance that can be recorded, monitored, and managed."
+        },
+        "4": {
+          "title": "Monitoring screen",
+          "subtitle": "monitor all students screen in realtime"
+        },
+        "5": {
+          "title": "Broadcast URL",
+          "subtitle": "To facilitate teachers to quickly push and easily share some very long URLs/file links during class or other times"
+        },
+        "6": {
+          "title": "Group Broadcast",
+          "subtitle": "Broadcast up to 4 students screen to all other students"
+        },
+        "7": {
+          "title": "Attendance",
+          "subtitle": "View & export student's daily attendance"
+        },
+        "8": {
+          "title": "Blocked URL",
+          "subtitle": "Stop students from visiting certain inappropriate web sites during class session"
+        },
+        "9": {
+          "title": "Browse history",
+          "subtitle": "Monitor and track students visited web site during class session"
+        },
+        "10": {
+          "title": "Lucky wheel",
+          "subtitle": "Use lucky wheel to draw student to answer question"
+        }
+      }
+    },
+    "section3": {
+      "title": "Download Now"
+    }
+  },
+
+  "_comment": "/* FOOTER SECTION */",
+
+  "footer-first-title": "我們的伙伴",
+  "footer-second-title": "支援",
+  "footer-third-title": "資源",
+  "first-links": {
+    "1": "Google",
+    "2": "ACER 宏碁",
+    "3": "大同",
+    "4": "中華電信",
+    "5": "成為我們的伙伴",
+    "6": "合作顆伴推廣經費申請"
+  },
+  "second-links": {
+    "1": "幫助中心",
+    "2": "教育訓練",
+    "3": "隱私條款",
+    "4": "聯絡我們"
+  },
+  "third-links": {
+    "1": "(官網）社交媒體",
+    "2": "(AI+）教學應用社交媒體",
+    "3": "(Line ID): @ydai",
+    "4": "iPad 教學廣播安裝手冊",
+    "5": "iPad 教學廣播使用手冊",
+    "6": "Chromebook 教學廣播 安裝手冊",
+    "7": "Chromebook教學廣播 使用手冊",
+    "8": "Privacy Policy 隱私條款"
+  }
+}

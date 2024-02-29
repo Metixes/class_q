@@ -1,0 +1,128 @@
+{
+  "_comment": "/* HEADER SECTION */",
+
+  "header-first-menu-title": "AI 研發區",
+  "header-second-menu-title": "教學方案",
+  "header-third-menu-title": "免費方案區",
+  "header-fourth-menu-title": "moonshot-射月行動",
+  "header-fifth-menu-title": "客戶回饋區",
+
+  "header-first-menu": {
+    "1": "AI雲飛-API庫",
+    "2": "展示 – AI 學習寵物功能",
+    "3": "展示 – AI 伴讀小雲飛",
+    "4": "展示-AI英語情境式學習",
+    "5": "展示 AI飛常快樂學英語",
+    "6": "雲飛 – AI遊樂區"
+  },
+  "header-second-menu": {
+    "1": "AI 飛躍英語村",
+    "2": "AI CampusGPT 雲飛學堂",
+    "3": "Air 英語未來城",
+    "4": "Chromebook教學廣播互動系統",
+    "5": "iPad 教學廣播互動系統",
+    "6": "Android 教學廣播與互動系統",
+    "7": "Google workspace 版本介紹",
+    "8": "ClassPoint AI 飛越課點",
+    "9": "雲動方案價目表"
+  },
+  "header-third-menu": {
+    "1": "學生名稱QR Code 產生器"
+  },
+  "header-fourth-menu": {
+    "1": "Moonshot-報名表",
+    "2": "Moonshot-星之花絮",
+    "3": "Moonshot-星之老師"
+  },
+  "header-fifth-menu": {
+    "1": "產學合作申請"
+  },
+
+  "_comment": "/* MAIN SECTION */",
+
+  "main": {
+    "section1": {
+      "title": "亞洲最強大的IRS即時互動教學工具",
+      "desc": "ClassQ是您教學的神器，能讓您的教學方式大放異彩，事半功倍。它無縫地融合於教學中，讓您的簡報煥發新生。獨特的呈現形式和遊戲式的學習活動，能有效地提升學生的參與和學習成效。"
+    },
+    "section2": {
+      "title": "優越的演示工具",
+      "desc": "我們為教育而設計的進階註解和教學工具，讓您能製作出獨一無二且富吸引力的教學演示。這些工具能夠無縫融入您的教學風格，進一步提升教學效能。",
+      "links": {
+        "1": {
+          "title": "畫面廣播",
+          "subtitle": "將老師螢幕畫面廣播給全班"
+        },
+        "2": {
+          "title": "封鎖畫面",
+          "subtitle": "學生畫面一鍵黑屏"
+        },
+        "3": {
+          "title": "AI雲飛",
+          "subtitle": "採用 ChatGPT 技術的輔助學習助理，讓學生在可記錄、可監控、可管理下獲得協助。"
+        },
+        "4": {
+          "title": "監控畫面",
+          "subtitle": "輕鬆實時檢視學生之螢幕畫面"
+        },
+        "5": {
+          "title": "推播超連結",
+          "subtitle": "為方便老師在課堂中或其他時間, 使用網頁短網址及QRCode 以輕鬆分享一些非常長的網址/檔案連接"
+        },
+        "6": {
+          "title": "群組廣播",
+          "subtitle": "廣播1-4位學生之畫面至所有其他學生"
+        },
+        "7": {
+          "title": "出席狀況",
+          "subtitle": "查看並匯出每天上線之學生出席報表"
+        },
+        "8": {
+          "title": "黑名單",
+          "subtitle": "祇允許學生進入某些網站"
+        },
+        "9": {
+          "title": "瀏覽歷程",
+          "subtitle": "課堂中隨時查閱學生的網站瀏覽歷程並匯出"
+        },
+        "10": {
+          "title": "幸運輪",
+          "subtitle": "使用輪盤，抽取幸運的學生，並同時記錄中獎者"
+        }
+      }
+    },
+    "section3": {
+      "title": "馬上下載"
+    }
+  },
+
+  "_comment": "/* FOOTER SECTION */",
+
+  "footer-first-title": "我們的伙伴",
+  "footer-second-title": "支援",
+  "footer-third-title": "資源",
+  "first-links": {
+    "1": "Google",
+    "2": "ACER 宏碁",
+    "3": "大同",
+    "4": "中華電信",
+    "5": "成為我們的伙伴",
+    "6": "合作顆伴推廣經費申請"
+  },
+  "second-links": {
+    "1": "幫助中心",
+    "2": "教育訓練",
+    "3": "隱私條款",
+    "4": "聯絡我們"
+  },
+  "third-links": {
+    "1": "(官網）社交媒體",
+    "2": "(AI+）教學應用社交媒體",
+    "3": "(Line ID): @ydai",
+    "4": "iPad 教學廣播安裝手冊",
+    "5": "iPad 教學廣播使用手冊",
+    "6": "Chromebook 教學廣播 安裝手冊",
+    "7": "Chromebook教學廣播 使用手冊",
+    "8": "Privacy Policy 隱私條款"
+  }
+}

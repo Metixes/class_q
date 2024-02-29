@@ -8,9 +8,9 @@
           placeholder="搜索 …"
           type="text" />
         <nav :class="['nav', { 'show-burger-menu': burgerActive }]">
-          <ul :class="['menu', { 'hide-menu': searchActive && !burgerActive }]">
+          <!-- <ul :class="['menu', { 'hide-menu': searchActive && !burgerActive }]">
             <li class="menu-select">
-              AI 研發區
+              {{ t("header-first-menu-title") }}
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
@@ -18,47 +18,47 @@
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/airpet.png"
                     alt="airpet-icon" />
-                  <a href="">AI雲飛-API庫</a>
+                  <a href="">{{ t("header-first-menu.1") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/highlight.png"
                     alt="highlight-icon" />
-                  <a href="">展示 – AI 學習寵物功能</a>
+                  <a href="">{{ t("header-first-menu.2") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/translate.png"
                     alt="translate-icon" />
-                  <a href="">展示 – AI 伴讀小雲飛</a>
+                  <a href="">{{ t("header-first-menu.3") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/video.png"
                     alt="video-icon" />
-                  <a href="">展示-AI英語情境式學習</a>
+                  <a href="">{{ t("header-first-menu.4") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/learnenglish.png"
                     alt="learn-english-icon" />
-                  <a href="">展示 AI飛常快樂學英語</a>
+                  <a href="">{{ t("header-first-menu.5") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/aiplay.png"
                     alt="airplay-icon" />
-                  <a href="">雲飛 – AI遊樂區</a>
+                  <a href="">{{ t("header-first-menu.6") }}</a>
                 </li>
               </ul>
             </li>
             <li class="menu-select">
-              教學方案
+              {{ t("header-second-menu-title") }}
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
@@ -66,64 +66,64 @@
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/AIBeyondEnglishTown.png"
                     alt="AIBeyond-icon" />
-                  <a href="">AI 飛躍英語村</a>
+                  <a href="">{{ t("header-second-menu.1") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/CampusGPT.png"
                     alt="CampusGPT-icon" />
-                  <a href="">AI CampusGPT 雲飛學堂</a>
+                  <a href="">{{ t("header-second-menu.2") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/ENGCITY.png"
                     alt="ENGCITY-icon" />
-                  <a href="">Air 英語未來城</a>
+                  <a href="">{{ t("header-second-menu.3") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/chromebook.png"
                     alt="chromebook-icon" />
-                  <a href="">Chromebook教學廣播互動系統</a>
+                  <a href="">{{ t("header-second-menu.4") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/classroomgo-iPad.png"
                     alt="classroomgo-icon" />
-                  <a href="">iPad 教學廣播互動系統</a>
+                  <a href="">{{ t("header-second-menu.5") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/Android.png"
                     alt="android-icon" />
-                  <a href="">Android 教學廣播與互動系統</a>
+                  <a href="">{{ t("header-second-menu.6") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/googleworkspace.png"
                     alt="googleworkspace-icon" />
-                  <a href="">Google workspace 版本介紹</a>
+                  <a href="">{{ t("header-second-menu.7") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/classpoint.png"
                     alt="classpoint-icon" />
-                  <a href="">ClassPoint AI 飛越課點</a>
+                  <a href="">{{ t("header-second-menu.8") }}</a>
                 </li>
                 <li class="menu-list-link">
-                  <a href="">雲動方案價目表</a>
+                  <a href="">{{ t("header-second-menu.9") }}</a>
                 </li>
               </ul>
             </li>
             <li class="menu-select">
-              免費方案區
+              {{ t("header-third-menu-title") }}
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
@@ -131,12 +131,12 @@
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/studentqrcode.png"
                     alt="studentqrcode-icon" />
-                  <a href="">學生名稱QR Code 產生器</a>
+                  <a href="">{{ t("header-third-menu.1") }}</a>
                 </li>
               </ul>
             </li>
             <li class="menu-select">
-              moonshot-射月行動
+              {{ t("header-fourth-menu-title") }}
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
@@ -144,26 +144,26 @@
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/registration.png"
                     alt="registration-icon" />
-                  <a href="">Moonshot-報名表</a>
+                  <a href="">{{ t("header-fourth-menu.1") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/video.png"
                     alt="video-icon" />
-                  <a href="">Moonshot-星之花絮</a>
+                  <a href="">{{ t("header-fourth-menu.2") }}</a>
                 </li>
                 <li class="menu-list-link">
                   <img
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/moonshoot.png"
                     alt="moonshoot-icon" />
-                  <a href="">Moonshot-星之老師</a>
+                  <a href="">{{ t("header-fourth-menu.3") }}</a>
                 </li>
               </ul>
             </li>
             <li class="menu-select">
-              客戶回饋區
+              {{ t("header-fifth-menu-title") }}
               <i class="arrow-down" />
               <ul class="menu-list">
                 <li class="menu-list-link">
@@ -171,11 +171,11 @@
                     class="menu-list-icon"
                     src="@/assets/images/header-nav/cooperation.png"
                     alt="cooperation-icon" />
-                  <a href="">產學合作申請</a>
+                  <a href="">{{ t("header-fifth-menu.1") }}</a>
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul> -->
         </nav>
       </div>
       <div class="header-swipe-change">
@@ -189,6 +189,12 @@
           :class="['search-icon', { 'hidden-search-icon': searchActive }]">
           <use href="@/assets/icons/sprite.svg#search" />
         </svg>
+        <a-select
+          v-model:value="defaultLocale"
+          label-in-value
+          style="width: 120px"
+          :options="locales"
+          @change="changeLang"></a-select>
         <div
           @click="burgerActive = !burgerActive"
           :class="['burger', { 'hide-burger': searchActive }]">
@@ -205,9 +211,9 @@
           class="editor-content-logo"
           src="@/assets/images/class-q.png"
           alt="Class-Q" />
-        <h1 class="editor-content-title">亞洲最強大的IRS即時互動教學工具</h1>
+        <h1 class="editor-content-title">{{ t("main.section1.title") }}</h1>
         <p class="editor-content-description">
-          ClassQ是您教學的神器，能讓您的教學方式大放異彩，事半功倍。它無縫地融合於教學中，讓您的簡報煥發新生。獨特的呈現形式和遊戲式的學習活動，能有效地提升學生的參與和學習成效。
+          {{ t("main.section1.desc") }}
         </p>
         <img
           class="editor-content-link"
@@ -222,9 +228,9 @@
     <div class="bg">
       <div class="study">
         <img class="study-logo" src="@/assets/images/logo.png" alt="logo" />
-        <h3 class="study-title">優越的演示工具</h3>
+        <h3 class="study-title">{{ t("main.section2.title") }}</h3>
         <p class="study-subtitle">
-          我們為教育而設計的進階註解和教學工具，讓您能製作出獨一無二且富吸引力的教學演示。這些工具能夠無縫融入您的教學風格，進一步提升教學效能。
+          {{ t("main.section2.desc") }}
         </p>
         <div class="study-links">
           <div
@@ -241,7 +247,7 @@
         </div>
       </div>
       <div class="downloads">
-        <h3 class="downloads-title">馬上下載</h3>
+        <h3 class="downloads-title">{{ t("main.section3.title") }}</h3>
         <div class="downloads-links">
           <img
             class="downloads-links-link"
@@ -271,90 +277,121 @@
           src="@/assets/images/Google-for-Education_logo.png"
           alt="logo" />
       </div>
-      <div class="footer-nav">
+      <!-- <div class="footer-nav">
         <div class="footer-nav-links">
-          <h3 class="footer-nav-title">我們的伙伴</h3>
-          <a class="footer-nav-link">Google</a>
-          <a class="footer-nav-link">ACER 宏碁</a>
-          <a class="footer-nav-link">大同</a>
-          <a class="footer-nav-link">中華電信</a>
-          <a class="footer-nav-link">成為我們的伙伴</a>
-          <a class="footer-nav-link">合作顆伴推廣經費申請</a>
+          <h3 class="footer-nav-title">{{ t("footer-first-title") }}</h3>
+          <a class="footer-nav-link">{{ t("first-links.1") }}</a>
+          <a class="footer-nav-link">{{ t("first-links.2") }}</a>
+          <a class="footer-nav-link">{{ t("first-links.3") }}</a>
+          <a class="footer-nav-link">{{ t("first-links.4") }}</a>
+          <a class="footer-nav-link">{{ t("first-links.5") }}</a>
+          <a class="footer-nav-link">{{ t("first-links.6") }}</a>
         </div>
         <div class="footer-nav-links">
-          <h3 class="footer-nav-title">支援</h3>
-          <a class="footer-nav-link">幫助中心</a>
-          <a class="footer-nav-link">教育訓練</a>
-          <a class="footer-nav-link">隱私條款</a>
-          <a class="footer-nav-link">聯絡我們</a>
+          <h3 class="footer-nav-title">{{ t("footer-second-title") }}</h3>
+          <a class="footer-nav-link">{{ t("second-links.1") }}</a>
+          <a class="footer-nav-link">{{ t("second-links.2") }}</a>
+          <a class="footer-nav-link">{{ t("second-links.3") }}</a>
+          <a class="footer-nav-link">{{ t("second-links.4") }}</a>
         </div>
         <div class="footer-nav-links">
-          <h3 class="footer-nav-title">資源</h3>
-          <a class="footer-nav-link">(官網）社交媒體</a>
-          <a class="footer-nav-link">(AI+）教學應用社交媒體</a>
-          <a class="footer-nav-link">(Line ID): @ydai</a>
-          <a class="footer-nav-link">iPad 教學廣播安裝手冊</a>
-          <a class="footer-nav-link">iPad 教學廣播使用手冊</a>
-          <a class="footer-nav-link">Chromebook 教學廣播 安裝手冊</a>
-          <a class="footer-nav-link">Chromebook教學廣播 使用手冊</a>
-          <a class="footer-nav-link">Privacy Policy 隱私條款</a>
+          <h3 class="footer-nav-title">{{ t("footer-third-title") }}</h3>
+          <a class="footer-nav-link">{{ t("third-links.1") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.2") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.3") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.4") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.5") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.6") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.7") }}</a>
+          <a class="footer-nav-link">{{ t("third-links.8") }}</a>
         </div>
-      </div>
+      </div> -->
     </section>
   </footer>
 </template>
 
 <script setup>
 import { ref } from "vue";
+import { useI18n } from "vue-i18n";
+import { SelectProps } from "ant-design-vue";
+import i18n from "@/locales/index.js";
+
+const { t, setLocale } = useI18n();
 
 const arrLinks = [
-  { title: "畫面廣播", subtitle: "將老師螢幕畫面廣播給全班", imgPath: "horn" },
-  { title: "封鎖畫面", subtitle: "學生畫面一鍵黑屏", imgPath: "cancel" },
   {
-    title: "AI雲飛",
-    subtitle:
-      "採用 ChatGPT 技術的輔助學習助理，讓學生在可記錄、可監控、可管理下獲得協助。",
+    title: t("main.section2.links.1.title"),
+    subtitle: t("main.section2.links.1.subtitle"),
+    imgPath: "horn",
+  },
+  {
+    title: t("main.section2.links.2.title"),
+    subtitle: t("main.section2.links.2.subtitle"),
+    imgPath: "cancel",
+  },
+  {
+    title: t("main.section2.links.3.title"),
+    subtitle: t("main.section2.links.3.subtitle"),
     imgPath: "chat",
   },
   {
-    title: "監控畫面",
-    subtitle: "輕鬆實時檢視學生之螢幕畫面",
+    title: t("main.section2.links.4.title"),
+    subtitle: t("main.section2.links.4.subtitle"),
     imgPath: "monitor",
   },
   {
-    title: "推播超連結",
-    subtitle:
-      "為方便老師在課堂中或其他時間, 使用網頁短網址及QRCode 以輕鬆分享一些非常長的網址/檔案連接",
+    title: t("main.section2.links.5.title"),
+    subtitle: t("main.section2.links.5.subtitle"),
     imgPath: "hyper",
   },
   {
-    title: "群組廣播",
-    subtitle: "廣播1-4位學生之畫面至所有其他學生",
+    title: t("main.section2.links.6.title"),
+    subtitle: t("main.section2.links.6.subtitle"),
     imgPath: "group",
   },
   {
-    title: "出席狀況",
-    subtitle: "查看並匯出每天上線之學生出席報表",
+    title: t("main.section2.links.7.title"),
+    subtitle: t("main.section2.links.7.subtitle"),
     imgPath: "calendar",
   },
   {
-    title: "黑名單",
-    subtitle: "祇允許學生進入某些網站,隨時開通或關閉",
+    title: t("main.section2.links.8.title"),
+    subtitle: t("main.section2.links.8.subtitle"),
     imgPath: "blacklist",
   },
   {
-    title: "瀏覽歷程",
-    subtitle: "課堂中隨時查閱學生的網站瀏覽歷程並匯出",
+    title: t("main.section2.links.9.title"),
+    subtitle: t("main.section2.links.9.subtitle"),
     imgPath: "history",
   },
   {
-    title: "幸運輪",
-    subtitle: "使用輪盤，抽取幸運的學生，並同時記錄中獎者",
+    title: t("main.section2.links.10.title"),
+    subtitle: t("main.section2.links.10.subtitle"),
     imgPath: "lottery",
   },
 ];
+const locales = ref([
+  {
+    value: "zh-hk",
+    label: "ZH-HK",
+  },
+  {
+    value: "ja",
+    label: "JA",
+  },
+  {
+    value: "en",
+    label: "EN",
+  },
+]);
+
+const defaultLocale = ref({ value: "zh-hk", label: "ZH-HK" });
 const searchActive = ref(false);
 const burgerActive = ref(false);
+
+const changeLang = (value) => {
+  i18n.setLocale(value.key);
+};
 
 const swipeNavMenu = () => {
   const input = document.querySelector(".header-input");
@@ -399,10 +436,11 @@ const swipeNavMenu = () => {
 
       @media (320px <= width <= 992px) {
         display: none;
-        width: 80%;
+        // width: 80%;
         padding: 24px;
         position: absolute;
-        top: 35px;
+        // top: 35px;
+        top: 25px;
         left: 50%;
 
         border-top: 3px solid var(--blue);
@@ -428,10 +466,11 @@ const swipeNavMenu = () => {
   &-swipe-change {
     position: relative;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
     @media (320px <= width <= 992px) {
-      position: static;
+      // position: static;
     }
   }
 
@@ -602,7 +641,8 @@ const swipeNavMenu = () => {
 
     @media (320px <= width <= 992px) {
       position: absolute;
-      right: 75px;
+      // right: 75px;
+      left: -30px;
       top: 10px;
     }
   }
@@ -617,6 +657,11 @@ const swipeNavMenu = () => {
     cursor: pointer;
     transition: opacity 0.6s ease-out, visibility 0.6s ease-out,
       top 0.4s ease-out !important;
+
+    @media (320px <= width <= 992px) {
+      // right: 75px;
+      left: -30px;
+    }
   }
 
   @media (320px <= width <= 992px) {
