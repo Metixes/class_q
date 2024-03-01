@@ -387,11 +387,11 @@ const arrLinks = [
 const locales = ref([
   {
     value: "zh",
-    label: "ZH-HK",
+    label: "TW",
   },
   {
     value: "ja",
-    label: "JA",
+    label: "JP",
   },
   {
     value: "en",
