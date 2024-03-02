@@ -251,8 +251,8 @@
               :src="`/images/${link.imgPath}.png`"
               alt="Icon"
             />
-            <h5 class="link-container-title">{{ link.title }}</h5>
-            <p class="link-container-subtitle">{{ link.subtitle }}</p>
+            <h5 class="link-container-title">{{ t(link.title) }}</h5>
+            <p class="link-container-subtitle">{{ t(link.subtitle) }}</p>
           </div>
         </div>
       </div>
@@ -328,59 +328,59 @@
 <script setup>
 import { ref } from "vue";
 import { useI18n } from "vue3-i18n";
-import { SelectProps } from "ant-design-vue";
+// import { SelectProps } from "ant-design-vue";
 
 const { t, setLocale, getLocale } = useI18n();
 
 const arrLinks = [
   {
-    title: t("main.section2.links.1.title"),
-    subtitle: t("main.section2.links.1.subtitle"),
+    title: "main.section2.links.1.title",
+    subtitle: "main.section2.links.1.subtitle",
     imgPath: "horn",
   },
   {
-    title: t("main.section2.links.2.title"),
-    subtitle: t("main.section2.links.2.subtitle"),
+    title: "main.section2.links.2.title",
+    subtitle: "main.section2.links.2.subtitle",
     imgPath: "cancel",
   },
   {
-    title: t("main.section2.links.3.title"),
-    subtitle: t("main.section2.links.3.subtitle"),
+    title: "main.section2.links.3.title",
+    subtitle: "main.section2.links.3.subtitle",
     imgPath: "chat",
   },
   {
-    title: t("main.section2.links.4.title"),
-    subtitle: t("main.section2.links.4.subtitle"),
+    title: "main.section2.links.4.title",
+    subtitle: "main.section2.links.4.subtitle",
     imgPath: "monitor",
   },
   {
-    title: t("main.section2.links.5.title"),
-    subtitle: t("main.section2.links.5.subtitle"),
+    title: "main.section2.links.5.title",
+    subtitle: "main.section2.links.5.subtitle",
     imgPath: "hyper",
   },
   {
-    title: t("main.section2.links.6.title"),
-    subtitle: t("main.section2.links.6.subtitle"),
+    title: "main.section2.links.6.title",
+    subtitle: "main.section2.links.6.subtitle",
     imgPath: "group",
   },
   {
-    title: t("main.section2.links.7.title"),
-    subtitle: t("main.section2.links.7.subtitle"),
+    title: "main.section2.links.7.title",
+    subtitle: "main.section2.links.7.subtitle",
     imgPath: "calendar",
   },
   {
-    title: t("main.section2.links.8.title"),
-    subtitle: t("main.section2.links.8.subtitle"),
+    title: "main.section2.links.8.title",
+    subtitle: "main.section2.links.8.subtitle",
     imgPath: "blacklist",
   },
   {
-    title: t("main.section2.links.9.title"),
-    subtitle: t("main.section2.links.9.subtitle"),
+    title: "main.section2.links.9.title",
+    subtitle: "main.section2.links.9.subtitle",
     imgPath: "history",
   },
   {
-    title: t("main.section2.links.10.title"),
-    subtitle: t("main.section2.links.10.subtitle"),
+    title: "main.section2.links.10.title",
+    subtitle: "main.section2.links.10.subtitle",
     imgPath: "lottery",
   },
 ];
